@@ -1,0 +1,187 @@
+nav {
+	position: fixed; 
+	width: 100%; 
+	height: 50px; 
+	top: 0px; 
+	background-color: #666; 
+	z-index: 1000;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	list-style-type: none; 
+	color: #fff; 
+	text-align: center;
+}
+
+nav li {
+	float: left;
+	padding: 10px 10px 0; 
+	font-family: sans-serif; 
+	text-transform: uppercase;
+}
+	
+nav li a {
+	display:block;
+	width:200px;
+  	text-decoration:none;
+	padding:5px;
+	color: #FFF; 
+}
+
+nav li a:hover {
+	color: #CCC;
+}
+
+nav li ul {
+	display: none;
+	position: absolute;
+}
+
+nav ul li:hover ul {
+ display:block;
+ background-color: #666; 
+
+}
+
+nav li:hover ul li {
+ float:none;
+}
+
+.table td {
+	text-align: right;
+	padding: 10px;
+}
+
+.table thead th{
+	vertical-align: middle;
+	text-align: center;
+}
+
+.table .thead-light th {
+	color: #FFF;
+	background-color: #666;
+}
+
+.center td {
+	text-align: center;
+}
+
+.tarif-desc {
+	text-align: left;
+	font-size: 16px;
+	text-decoration: italic;
+}
+
+caption {
+	caption-side: top;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+footer a {color: #000; text-decoration: none;}
+footer a:hover {color: #999;}
+
+H1 {font-family: sans-serif; font-size: 20px; text-transform: uppercase; padding: 50px 0;}
+H2 {font-family: sans-serif; font-size: 18px; text-transform: uppercase; padding: 50px 0 30px;}
+
+H1.title_banner {position: absolute; bottom: 50px; left: 50%; transform: translateX(-50%); background-color: rgba(255, 255, 255, 0.7);padding: 30px;}
+
+.body {width:100%; max-width:1024px; margin: 0 auto;}
+.smaller_body {width: 800px!important; margin: 0 auto;}
+.calendar { height: 250px;}
+p,ul {font-size: 14px; line-height: 25px; box-sizing:20px;}
+.txt_left {text-align: left;}
+.color_white {color: white;}
+
+
+.row_columns {width: 100%; font-size: 0; padding: 50px 0;}
+.column_2 {width: 45%; display: inline-block; vertical-align: top; margin-right: 10%;}
+.column_2:last-child {margin-right: 0;}
+.column_3 {width: 30%; display: inline-block; vertical-align: top; margin-right: 5%;}
+.column_3:last-child {margin-right: 0;}
+
+.full_img {position: relative; height: 100vh; background: no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+
+.img-into-body {width: 100%; max-width: 1024px;}
+
+@media screen and (max-width: 640px) {
+  H1 {font-family: sans-serif; font-size: 14px; text-transform: uppercase; padding: 50px 0;}
+  H2 {font-family: sans-serif; font-size: 12px; text-transform: uppercase; padding: 15px 0 0px;}
+  img {width: 100%;}
+  .full_img {position: relative; height: 400px; width: 100%; margin: 50px 0 0; background: no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+  .body,.smaller_body {width: 90%; margin: 0 auto; font-size: 0; padding: 10px 0 10px;}
+  p {font-size: 14px;}
+  .column_2,.column_3 {width: 100%; display: block; margin-top: 20px;}
+  .non-mobile {display: none;}
+
+  /*----------HOME----------*/
+  .logo {width: 100%;}
+  .txt-img {width: 80%!important; left: 0%!important; margin-left: 0px!important; transform: translateY(0%)!important; position: absolute; background-color: rgba(255,255,255,0.8); padding: 10px;}
+
+
+}
+
+/*----------HOME----------*/
+
+.bg_head {position: absolute; bottom:25px; left: 50%; margin-left: -512px; width: 1024px; height: 160px; background-color: rgba(255,255,255,0.7);}
+.img_head {background-image: url(../img/img_pontdarc.jpg);}
+.logo {width:30%;}
+.align-middle {vertical-align: middle;}
+.img_home {background-image: url(../img/ardeche.jpg); position: relative;}
+.txt-img {width: 500px; left: 50%; margin-left: -300px; transform: translateY(50%); position: absolute; background-color: rgba(255,255,255,0.7); padding: 50px;}
+
+
+
+/*----------ACTIVITE----------*/
+
+.img_activite {background-image: url(../img/piscine.jpg);}
+.img_activite-outside {background-image: url(../img/ativite-out.jpg);}
+.titre_activite {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*----------MAZETS----------*/
+
+.img_mazets {background-image: url(../img/mazets.jpg);}
+
+/*----------TARIFS----------*/
+
+.img_tarifs {background-image: url(../img/tarifs.jpg);}
+
+/*----------RESERVATION----------*/
+
+.img_reservation {background-image: url(../img/reservation.jpg);}
+
+/*----------TRAVEL----------*/
+
+.img_travel {background-image: url(../img/travel.jpg);}
+
+/*----------CONTACT----------*/
+
+.img_contact {background-image: url(../img/contact.jpg);}
+
+/*----------PARTENAIRES----------*/
+
+.img_canoe {background-image: url(../img/ecran_canoe_v2.jpg);}
+
+
+
+footer {width: 100%; background-color: #eee; padding: 0px 0; border-top: solid 1px lightgrey;}
+footer p {font-family: sans-serif; font-size: 17px; line-height: 30px;transform: translateY(50%);left: 25px;}
+
+.warning {
+	margin-top: 10px;
+	padding: 50px;
+	background-color: lightgrey;
+	box-shadow: 5px 5px 5px;
+}
+
+.warning p {
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+}
